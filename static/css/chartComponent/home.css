@@ -1,0 +1,300 @@
+.home_container{
+    width: 100%;
+    height: 100%;
+    background: #1b1e25;
+    padding: 0 0 0 47px;
+}
+.container{
+    width:100%;
+    height: 100%;
+    background: #ccc;
+    position: relative;
+}
+.container .container_title{
+    height: 10.5%;
+    /* height: 60px; */
+    background: #212528;
+}
+.container .container_title p{
+    font-size: 24px;
+    color: #fff;
+    line-height: 60px;
+    padding-left: 2%;
+    float: left;
+}
+.container .container_title .title_right{
+    float: right;
+    margin-right: 1.7%
+}
+.container .container_title .title_right .pic{
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 50%;
+    float: left;
+    margin: 15% 0 0 -10%;
+}
+.container .container_title .title_right .push2{
+    float: left;
+    margin: 50% 0 0 10%;
+}
+.container .container_content{
+    height: 89.5%;
+    background: #1b1e25;
+    position: absolute;
+    top: 10.5%;
+    width: 100%;
+}
+.container .container_content .content_left{
+    float: left;
+    width: 19%;
+    height: 100%;
+    background: #212528;
+
+}
+.container .container_content .content_left p,
+.container .container_content .content_left ul li{
+    border-bottom: 1px solid #415062;
+    padding-left: 20%;
+}
+.container .container_content .content_left p {
+    position: relative;
+    background: #2d343c;
+    height: 7%;
+    /* height: 36px; */
+}
+.container .container_content .content_left p .rectangle{
+    position: absolute;
+    left: 12%;
+    top: 45%;
+}
+.container .container_content .content_left p .add{
+    position: absolute;
+    right: 16%;
+    top: 33%;
+}
+.container .container_content .content_left p .remove1{
+    position: absolute;
+    right: 5%;
+    top: 33%;
+}
+.container .container_content .content_left p span{
+    font-size: 15px;
+    color: #000000;
+    line-height: 36px
+}
+.container .container_content .content_left ul li{
+    font-size: 14px;
+    color: #aeaeae;
+    line-height: 34px;
+}
+.container .container_content .content_left ul li:nth-child(1){
+    color: #fff;
+    background: #3e4853
+}
+.container .container_content .content_right{
+    background: #1b1e25;
+    width: 81%;
+    float: left;
+    height: 100%;
+}
+.container .container_content .content_right .right_line{
+    /* height: 62px; */
+    height: 11%;
+    background: #1b1e25;
+    /* margin:0 18px 0 18px; */
+    margin:0 1.7% 0 1.7%;
+    border-bottom: 1px solid #3e4853
+}
+.container .container_content .content_right .right_line .line_all li{
+    float: left;
+    color: #fff;
+    font-size: 12px;
+    /* margin-top: 27px; */
+    margin-top: 2.7%
+}
+.container .container_content .content_right .right_line .line_all li:nth-child(1){
+    margin-right: 3.3%;
+    /* margin-right: 38px; */
+}
+.container .container_content .content_right .right_line .line_all li:nth-child(2),
+.container .container_content .content_right .right_line .line_all li:nth-child(3){
+    margin-right: 2.2%;
+}
+.container .container_content .content_right .right_line .line_all li:nth-child(2) span:nth-child(2),
+.container .container_content .content_right .right_line .line_all li:nth-child(3) span:nth-child(2),
+.container .container_content .content_right .right_line .line_all li:nth-child(4) span:nth-child(2){
+    color: #2df8ff
+}
+.container .container_content .content_right .right_line .line_nav{
+    float: right;
+    margin-top: 2.7%;
+    width:700px;
+}
+.container .container_content .content_right .right_line .line_nav li{
+    float: left; 
+    color: #fff;
+    font-size: 12px;
+}
+.container .container_content .content_right .right_line .line_nav .nav1{
+    width: 30%;
+    /* margin-right: 3.5%; */
+}
+.container .container_content .content_right .right_line .line_nav .nav2{
+    /* width: 205px; */
+    width: 30%;
+}
+.container .container_content .content_right .right_line .line_nav .nav1,
+.container .container_content .content_right .right_line .line_nav .nav2{
+    position: relative;
+    float: left;
+}
+.container .container_content .content_right .right_line .line_nav .nav1 span,
+.container .container_content .content_right .right_line .line_nav .nav2 span{
+    margin-right: 2%;
+    float: left;
+}
+.container .container_content .content_right .right_line .line_nav .nav1 input,
+.container .container_content .content_right .right_line .line_nav .nav2 input{
+    /* width: 162px; */
+    width: 79%;
+    height: 24px;
+    border: 1px solid #7d7d7d;
+    background: #1b1e25;
+    color:#7d7d7d;
+    float: left;
+    margin-top: -2%;
+}
+.container .container_content .content_right .right_line .line_nav .nav1 input::-webkit-input-placeholder{
+    color:#7d7d7d;
+}
+.container .container_content .content_right .right_line .line_nav .nav2 input::-webkit-input-placeholder{
+     color:#fff;
+}
+.container .container_content .content_right .right_line .line_nav .nav1 input:focus,
+.container .container_content .content_right .right_line .line_nav .nav2 input:focus{
+    outline: none;
+}
+.container .container_content .content_right .right_line .line_nav .nav1 .search_img{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+.container .container_content .content_right .right_line .line_nav .nav2 .order_img{
+    position: absolute;
+    right: 10%;
+    top: 27%;
+}
+.container .container_content .content_right .right_line .line_nav .nav3,
+.container .container_content .content_right .right_line .line_nav .nav4,
+.container .container_content .content_right .right_line .line_nav .nav5,
+.container .container_content .content_right .right_line .line_nav .nav6{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 12px;
+}
+.container .container_content .content_right .right_line .line_nav .nav3 div:nth-child(1),
+.container .container_content .content_right .right_line .line_nav .nav4 div:nth-child(1),
+.container .container_content .content_right .right_line .line_nav .nav5 div:nth-child(1),
+.container .container_content .content_right .right_line .line_nav .nav6 div:nth-child(1){
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    float: left;
+}
+.container .container_content .content_right .right_line .line_nav .nav3 span,
+.container .container_content .content_right .right_line .line_nav .nav4 span,
+.container .container_content .content_right .right_line .line_nav .nav5 span,
+.container .container_content .content_right .right_line .line_nav .nav6 span{
+    float: left;
+}
+.container .container_content .content_right .right_main{
+    height: 89%;
+    /* padding: 0 50px;  */
+    padding:3.6% 0 0 6%;
+}
+.container .container_content .content_right .right_main div{
+    width: 20%;
+    height: 30%;
+    float: left;
+    margin:0 4.8% 5.2% 0;
+}
+.container .container_content .content_right .right_main .insert{
+    background-image: url("../../../static/img/chartComponent/bg.jpg");
+    position: relative;
+}
+.container .container_content .content_right .right_main .insert .mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #fff;
+    opacity: 0.2;
+    z-index: 9
+}
+.container .container_content .content_right .right_main .chart{
+    background-image: url("../../../static/img/chartComponent/bg.jpg");
+    position: relative;
+}
+.container .container_content .content_right .right_main .insert .insert_block{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background: #2d343c;
+    bottom: -7%;
+    
+}
+.container .container_content .content_right .right_main .insert .insert_text{
+    position: absolute;
+    color: #6cf5f7;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    bottom: -7%;
+    line-height: 15%;
+    z-index: 10
+}
+
+.container .container_content .content_right .right_main .insert .insert_all img{
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    z-index: 10;
+    left: 35%;
+    top: 10%;
+}
+.container .container_content .content_right .right_main .chart .chart_block{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background: #2d343c;
+    bottom: -7%;
+}
+.container .container_content .content_right .right_main  .chart_text{
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    width: 100%;
+    height: 30%;
+    bottom: -7%;
+    line-height: 15%;
+    z-index: 10
+}
+.container .container_content .content_right .right_main  .chart_text .text_num{
+    float: left;
+    margin-left: 5%
+}
+.container .container_content .content_right .right_main  .chart_text .text_time{
+    width: 30%;
+    float: right;
+    margin-top: -3%
+}
+.container .container_content .content_right .right_main  .chart_text .text_time span:nth-child(1){
+    display: block;
+
+}
+.container .container_content .content_right .right_main  .chart_text .text_time span:nth-child(2){
+    display: block;
+    margin-top: 20%;
+    
+}
